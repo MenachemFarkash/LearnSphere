@@ -1,0 +1,58 @@
+Programming Courses
+
+This project is a web application for selling programming courses. It uses a PostgreSQL database as the backend,
+with a Node.js server handling the API calls and a React frontend for the user interface.
+
+
+Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Prerequisites
+
+    Node.js
+    PostgreSQL
+
+Installing
+
+Clone the repository
+
+git clone https://github.com/[username]/programming-courses.git
+
+    Install dependencies
+
+npm install
+
+    Set up the database
+
+    Create a new PostgreSQL database
+    Run the SQL scripts in the /sql directory to set up the tables
+
+    Create a .env file in the root directory of the project with the following environment variables
+
+DB_USER= "postgres"
+DB_PASSWORD="Farkash1233"
+DB_HOST="localhost"
+
+    Start the development server
+
+npm run dev
+
+The application will now be running on http://localhost:4000
+
+Deployment
+
+To deploy the application, use the command
+
+npm run build
+
+This will create a production-ready build of the application in the /build directory.
+You can then serve this directory with your preferred method.
+
+    Node.js - The server-side JavaScript runtime
+    Express - The web framework used
+    PostgreSQL - The database management system
+    React - The JavaScript library for building user interfaces
+
+Author
+
+    Menachem Farkash - https://github.com/MenachemFarkash
