@@ -28,6 +28,7 @@ const Login = () => {
                             type="text"
                             name="username"
                             className="input"
+                            required
                             onChange={(ev) => setUsername(ev.target.value)}
                         />
                     </div>
@@ -39,13 +40,12 @@ const Login = () => {
                             type="password"
                             name="user_password"
                             className="input"
+                            required
                             onChange={(ev) => setPassword(ev.target.value)}
                         />
                     </div>
-                    <div className="field">
+                    <div className="buttons">
                         <button className="button">Login</button>
-                    </div>
-                    <div className="field">
                         <button onClick={() => setCurrentPage("register")} className="button">
                             Dont Have An Account Yet?
                         </button>

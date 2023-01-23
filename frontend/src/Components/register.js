@@ -29,6 +29,7 @@ const Login = () => {
                             name="username"
                             className="input"
                             onChange={(ev) => setUsername(ev.target.value)}
+                            placeholder="Username"
                             required
                         />
                     </div>
@@ -40,6 +41,8 @@ const Login = () => {
                             name="email"
                             className="input"
                             onChange={(ev) => setEmail(ev.target.value)}
+                            placeholder="Email"
+                            required
                         />
                     </div>
                     <div className="field">
@@ -49,7 +52,9 @@ const Login = () => {
                             type="password"
                             name="user_password"
                             className="input"
+                            placeholder="Password"
                             onChange={(ev) => setPassword(ev.target.value)}
+                            required
                         />
                     </div>
                     <div className="registerButtons">
