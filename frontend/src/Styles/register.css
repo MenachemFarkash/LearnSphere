@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffffdb;
+}
+
+.fakePersonalBody {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}   
+.mainContainer {
+    display: grid;
+    grid: 1fr/1fr 1.5fr;
+    width: 100dvw;
+    height: 98vh;
+}
+
+.siderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2c1b27;
+    color: white;
+    height: 100vh;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.siderContainer > img {
+    width: 100%;
+}
+.siderContainer > h2 {
+    width: 50%;
+    text-align: center;
+}
+.siderContainer > h1 {
+    margin-bottom: 2vh;
+    font-size: 60px;
+    width: 70%;
+    text-align: center;
+}

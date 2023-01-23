@@ -1,0 +1,21 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 79%;
+    align-items: center;
+
+    background-color: transparent;
+}
+
+.navbarButtons {
+    margin-right: 10vw;
+    align-self: center;
+}
+
+.navbar > img {
+    width: 20vw;
+    margin-left: 10vw;
+}

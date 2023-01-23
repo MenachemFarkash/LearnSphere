@@ -1,0 +1,49 @@
+.middleContainer {
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    overflow: hidden;
+    background: url("../../public/images/oldPaper.jpg");
+    background-size: 60vw;
+    margin-bottom: 55vh;
+    transition: all 0.7s;
+    border-radius: 15px;
+    padding: 2vh;
+    border-right: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    box-shadow: 0px 0px 30px 5px black;
+}
+
+.middleContainer:hover {
+    width: 60vw;
+    border-right: 5px solid #caa658;
+    border-left: 5px solid #c09d52;
+    box-shadow: 0px 0px 50px 20px #91773d;
+}
+
+.courseHeader {
+    color: #b49144;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-left: 2vw;
+}
+
+.subjectsContainer {
+    margin-top: 25vh;
+    width: 60vw;
+}
+
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 10vw;
+}
+.statsContainer > img {
+    width: 150px;
+}
+
+.middleContainer > h2 {
+    width: 60vw;
+}

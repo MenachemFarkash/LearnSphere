@@ -1,0 +1,18 @@
+i added the table using this query:
+
+create table subjects (
+	subject_id SERIAL primary key,
+	level difficulty,
+	subject subject_type,
+	rating DOUBLE PRECISION  check(rating>=0.0 and rating<=10.0)
+)
+
+
+this is how i added the users table:
+
+create table users (
+	user_id SERIAL primary key,
+	email varchar(255) not null CHECK (email ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$'),
+	password varchar(255) not null CHECK (password ~* '^(?=.[A-Za-z])(?=.[0-9])')
+)
+
